@@ -1,11 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lautan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      background-color: white;
+      margin: 30px auto;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #0073b7;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      color: #005f99;
+      margin-top: 25px;
+    }
+
+    p {
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #cccccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e6f2ff;
+      color: #004d80;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    /* Responsif untuk layar kecil */
+    @media (max-width: 600px) {
+      .container {
+        padding: 15px;
+      }
+
+      table, th, td {
+        font-size: 14px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Haiii, Selamat siang semuaa</h1>
+  <div class="container">
+    <h1>Lautan</h1>
+    <p>
+      Lautan adalah kumpulan air asin yang sangat besar yang menutupi sekitar 71% permukaan Bumi. 
+      Lautan di planet kita saling terhubung dan secara konvensional dibagi menjadi beberapa samudra utama 
+      dan laut-laut yang lebih kecil. Lautan sangat penting bagi kehidupan di Bumi, memainkan peran kunci 
+      dalam siklus air, iklim, dan cuaca.
+    </p>
+    <p>
+      Meskipun menjadi rumah bagi sebagian besar keanekaragaman hayati Bumi, sebagian besar lautan masih belum 
+      dieksplorasi. Palung Mariana adalah titik terdalam yang diketahui di lautan dunia, dengan kedalaman hampir 
+      11.000 meter. Ekosistem laut sangat bervariasi, mulai dari terumbu karang yang cerah hingga ventilasi hidrotermal 
+      di laut dalam yang gelap.
+    </p>
+
+    <h2>Lima Samudra di Dunia</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Samudra</th>
+          <th>Area (juta km²)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pasifik</td>
+          <td>165.2</td>
+        </tr>
+        <tr>
+          <td>Atlantik</td>
+          <td>106.5</td>
+        </tr>
+        <tr>
+          <td>Hindia</td>
+          <td>73.6</td>
+        </tr>
+        <tr>
+          <td>Antarktika (Selatan)</td>
+          <td>20.3</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Zona Kedalaman Laut:</h2>
+    <ul>
+      <li>Zona Epipelagik (Zona Sinar Matahari)</li>
+      <li>Zona Mesopelagik (Zona Senja)</li>
+      <li>Zona Batipelagik (Zona Tengah Malam)</li>
+      <li>Zona Abisal (Jurang)</li>
+    </ul>
+  </div>
 </body>
 </html>
